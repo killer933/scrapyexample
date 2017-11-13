@@ -10,7 +10,7 @@ import sys
 class Mysqloperation(object):
 
     def __init__(self):
-        self.conn = pymysql.connect(host='23.105.217.5', port=3306, user='root', passwd='Uo07s123123', db='houseinfo',charset='utf8')
+        self.conn = pymysql.connect(host='XXXXX', port=3306, user='X', passwd='XXXXX', db='houseinfo',charset='utf8')
         self.cursor = self.conn.cursor()
         self.user_list1 = []
         self.user_list2 = []
