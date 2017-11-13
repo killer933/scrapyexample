@@ -22,7 +22,7 @@ from logging import log
 class SQLStorePipeline(object):
     def __init__(self):
         self.dbpool = adbapi.ConnectionPool('MySQLdb', host='127.0.0.1',db='houseinfo',
-                user='root', passwd='Uo07s123123', cursorclass=MySQLdb.cursors.DictCursor,
+                user='root', passwd='XXXXXX', cursorclass=MySQLdb.cursors.DictCursor,
                 charset='utf8', use_unicode=True)
         global mutex
         mutex = threading.Lock()
